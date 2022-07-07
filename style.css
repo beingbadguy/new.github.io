@@ -1,0 +1,125 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.upper{
+    
+    background-color: Green;
+    position: relative;
+    padding: 20px;
+}
+.upper h1{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bolder;
+
+}
+.upper h4{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px 2px;
+    padding-top: 10px ;
+}
+.upper input[type=text]{
+    padding-top: 20px;
+    width: 20%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 485px;
+    padding: 0 8px 0 8px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    
+}
+.upper button{
+    margin: auto;
+    width: 10%;
+    height: 40px;
+    margin-left: 5px;
+    padding: 0 8px 0 8px;
+    background-color: black;
+    color: white;
+    letter-spacing:1px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.upper button:hover{
+    color: green;
+}
+.upper p{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 350px;
+    color: white;
+    padding-top: 50px;
+}
+
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.lower .first{
+    border: 2px solid green;
+    border-radius: 3px;
+    height: 100px;
+    margin-top: 20%;
+    padding: 7px;
+    box-shadow: 2px 2px 1px green;
+    cursor: pointer;
+    
+}
+.lower .first:hover{
+    
+    box-shadow: 4px 4px 8px green;
+    
+    
+}
+.first h5{
+    color: green;
+}
+.lower .second{
+    border: 2px solid green;
+    border-radius: 3px;
+    height: 150px;
+    margin-top: 20%;
+    padding: 7px;
+    box-shadow: 2px 2px 1px green;
+    cursor: pointer;
+   
+}
+.lower .second:hover{
+    
+    box-shadow: 4px 4px 8px green;
+    
+    
+}
+.second h5{
+    color: green;
+}
+.lower .third{
+    border: 2px solid green;
+    border-radius: 3px;
+    height: 100px;
+    margin-top: 20%;
+    padding: 7px;
+    box-shadow: 2px 2px 1px green;
+    cursor: pointer;
+    
+}
+.third h5{
+    color: green;
+}
+.lower .third:hover{
+    
+    box-shadow: 4px 4px 8px green;
+    
+    
+}
